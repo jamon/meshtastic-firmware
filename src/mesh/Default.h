@@ -22,7 +22,7 @@
 #define default_node_info_broadcast_secs 3 * 60 * 60
 #define default_neighbor_info_broadcast_secs 6 * 60 * 60
 #define min_node_info_broadcast_secs 60 * 60 // No regular broadcasts of more than once an hour
-#define min_neighbor_info_broadcast_secs 4 * 60 * 60
+#define min_neighbor_info_broadcast_secs 120
 #define default_map_publish_interval_secs 60 * 60
 #ifdef USERPREFS_RINGTONE_NAG_SECS
 #define default_ringtone_nag_secs USERPREFS_RINGTONE_NAG_SECS
